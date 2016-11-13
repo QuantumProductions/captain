@@ -1,0 +1,91 @@
+Overview
+
+In Captain!, you are an intrepid chef astronaut answering the call for adventure - trade your possessions across the solar system for the perfect ingredients to win the Galactic Cookoff Championship.
+
+(Cookoff Championship Logo)
+
+Your Communcations Officer will call you with news of trades. You will select to accept or refuse, then speak your order into your phone's microphone. (Visual Diagram)
+
+The game is intended as a comedy experience, with enjoyment derived from the novelty of your ship's officer shouting reports to you, you speaking into your phone to give orders on trades and the hilarious narrative that unfolds from your ridiculous trades.
+
+Requirements
+
+Captain! needs voice samples for its encounters. Each encounter is a procedurally generated event consisting of WHO, OFFERING, DEMAND and REASON. Who is the character encountered. Offering is the item they offer and demand is what they want for it. Demand will always be 1 of the items in your inventory. REASON is a justification for the trade to add flavor to the universe.
+
+Example: A local notification pops up on the Captain's phone. When they open it, they hear audio: "Captain! A Sentient Gas Cloud offers a Telepathic Poodle for our Frontier Boots! They need it to salvage for parts!"
+
+Then the Captain will select Approve or Refuse trade and speak into the microphone. Inventory adjustments are made accordingly and the screen returns to an image of the Captain's ship flying through space and a local notification timer is set in the background. This continues until they reach the Galactic Cookoff Championship.
+
+To generate the above sample audio, the program will use this algorithm:
+
+"WHO, OFFERING, for our" DEMAND, REASON"
+
+"WHO": Will always start with Captain, followed by the name of the encountered trader and ending in the word "offers"
+"OFFERING" will state the item being offered
+"for our" - there will be one "for our" in between the Offering and Demand
+"DEMAND": the item being demanded.
+"REASON": A justification
+
+This is a total of 5 sound clips played, with "for our" being the only constant. The rest will be chosen from the roster of sound files.
+
+The final sections detail the text for each voice sample needed. Please record 3 samples of each line. I recommed using the program Audacity. Please save as a .wav. You can use the visual editing to cut out deadtime before & after recording and remove any evidence of a mouseclick.
+
+PAYMENT
+
+Pick something reasonable - I am open to hourly or per voice sample. I'm happy to hire a friend and compensate you fairly for your time & effort.
+
+WHO
+
+"A Homeless Plutonian"
+"A Feverish Raver"
+"An Irritated Moon Golfer"
+"A Weird Space Trader"
+"A Sentient Gas Cloud"
+"A Lunar Landscaper"
+"A Heavy Metal Collector"
+"An Incompetant Robot"
+"A Simpering CyberMonkey"
+10X: (Make up 10 of your own, if you want!)
+
+OFFERS/DEMANDS
+
+"Telepathic Poodle"
+"Festering Beetle Swarm"
+"demented Warehouse Bot"
+"Mouth Melting Mercury Sauce"
+"Rejected Spaceship Blueprints"
+"Ring Dust"
+"Terraforming Fungal Patch"
+"Wormhole Generator"
+"Solar Umbrella"
+"Venus Swarm Trap"
+"Repair Kit"
+"Moon Cheese"
+"Quantum Potato"
+"Frontier Boots"
+"Comet Crystals"
+"Red Planet Dirt Spice"
+"Crunchy Carapace"
+"Mercury Magma Moth Wings"
+"Stolen Satellite"
+10X: (Make up 10 of your own, if you want!)
+
+REASONS
+
+"They need it to start a revolution!"
+"They need it to end a revolution!"
+"They need it for a heavier fix!"
+"They're starving!"
+"They fell victim to pirates!"
+"They need it to complete their collection!"
+"They need it to salvage for parts!"
+"They need it to ease their pain!"
+"They need it to mock their enemies!"
+"They need it to encourage their spawn!"
+"They need it to feed their pet!"
+"Do we have a deal?"
+"They made us an offer!"
+"They insult us!"
+"They flatter us!"
+"They need it for revenge!"
+10X: (Make up 10 of your own, if you want!)
